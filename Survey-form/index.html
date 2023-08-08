@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="/Survey-form/styles.css">
+</head>
+<body>
+    <div id="heading">
+    <h1 id="title">Registration Form For Geekster</h1>
+    <p id="description">Geekster Teaching Assosciate</p>
+    <pre>
+<strong>Salary:</strong>10k-20k/month
+<strong>Qualifications:</strong>B.Tech(any branch)
+    </pre>
+    </div>
+    <div id="main">
+        <form id="survey-form">
+        <div id="input-fields">
+            <label id="name-label"><b>Name:</b></label>
+            <input id="name" type="name" name="name" class="form" required placeholder="Enter your name"><br>
+            <br>
+            <label id="email-label"><strong>Email:</strong></label>
+            <input id="email" type="email" name="email" class="form" required placeholder="abc@mail.com"><br>
+            <br>
+            <label id="number-label"><b>Age:</b></label>
+            <input id="number" type="number" name="number" class="form" min="18" max="99" placeholder="18+">
+         </div>
+         <br>
+         <div id="dropdown-div">
+            <label id="dropdown-label"><strong>Programming language you are expert at: </strong></label><br>
+            <select id="dropdown" name="code-lang" class="form">
+                <option value="C">C (Programming Language)</option>
+                <option value="Python">Python</option>
+                <option value="C#">C#</option>
+                <option value="php">PHP</option>
+                <option value="Js">Java Script</option>
+                <option value="Go">Go (Programming Language)</option>
+                <option value="ruby">Ruby on rails</option>
+                <option value="C++">C++</option>
+                <option value="Java">Java</option>
+            </select>
+         </div>
+         <div id="button-area">
+             <br>
+            <label id="gender-label"><b>Gender</b></label><br>
+            <input type="radio" class="radio-inline" name="gender" value="male" checked> Male<br>
+            <input type="radio" class="radio-inline" name="gender" value="female"> Female<br>
+            <input type="radio" class="radio-inline" name="gender" value="Other"> Prefer Not to say<br>
+          </div>
+          <div id="button-area"><br>
+            <label id="experienced"><b>Experience or Fresher?</b></label><br>
+            <input type="radio" name="experience" value="experienced" checked> Experienced<br>
+            <input type="radio" name="experience" value="fresher"> Fresher<br>
+          </div>
+
+<div id="button-area"><br>
+            <label id="expertise1"><b>Select your expertise (Check multiple if you have)</b></label><br>
+            <input type="checkbox" name="expertise2" value="git and github" checked> Git and Github<br>
+            <input type="checkbox" name="expertise3" value="AWS-EC2"> AWS-EC2<br>
+            <input type="checkbox" name="expertise" value="MySQL"> MySQL<br>
+          </div>
+          <div id="dropdown"><br><br>
+            <label id="dropdown-label"><strong>Programming language you wanna work with: </strong></label><br>
+            <select id="dropdown" name="code-lang" class="form"><br><br>
+                <option value="C">C (Programming Language)</option>
+                <option value="Python">Python</option>
+                <option value="C#">C#</option>
+                <option value="php">PHP</option>
+                <option value="Js">Java Script</option>
+                <option value="Go">Go (Programming Language)</option>
+                <option value="ruby">Ruby on rails</option>
+                <option value="C++">C++</option>
+                <option value="Java">Java</option>
+            </select>
+         </div>
+          <div id="button-area"><br><br>
+            <label id="os-label"><b>Latest technology experience:</b></label><br>
+            <input type="checkbox" name="tech1" value="flutter"> Flutter UI<br>
+            <input type="checkbox" name="tech2" value="nodejs"> Node.js<br>
+            <input type="checkbox" name="tech3" value="tnflow"> Tensorflow<br>
+            <input type="checkbox" name="tech3" value="git"> Github<br>
+            <input type="checkbox" name="tech3" value="devops"> Dev-Ops<br>
+          </div>
+
+
+          <div id="ending"><br><br>
+            <label id="comments-label">Mention your work experience?(If no, then N/A)</label><br>
+            <textarea class="form" placeholder="Write experiences....." rows="5" cols="30"></textarea><br><br>
+            <input id="submit" type="submit"  class="form">
+          </div>
+        </form>
+    </div>
+</body>
+</html>
