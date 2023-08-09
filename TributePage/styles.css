@@ -1,0 +1,26 @@
+*{
+  background-color:#eee;
+}
+#img-div{
+  background-color:white;
+  padding:2%;
+  margin:0;
+}
+#img-caption{
+background-color:white; display:block;
+  text-align:center;
+}
+#image{
+  max-width:100%;
+  display:block;
+  height:auto;
+  margin:0 auto;
+}
+#tribute-link{
+  text-decoration:none;
+  color:black;
+}
+#tribute-link:hover{
+  background:black;
+  color:white;
+}
